@@ -1,0 +1,28 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+body{
+    background-image: url(./images/dark-wood.jpg);
+}
+
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+}
+header{
+    height: 160px;
+    background-image: url(./images/header.jpg);
+}
+nav li{
+    display: inline;
+    height: 30px;
+    background-color: #aeaca8;
+    clear:both;
+    
+}
+h1{
+    text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin: 0px;
+}

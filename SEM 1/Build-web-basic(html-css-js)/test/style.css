@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+#logo-head,#title-head{
+    display: inline-block;
+    font-size: 21px;
+    color: white;
+    padding: 0px 5px;
+    line-height: 50px;
+    font-style: italic;
+}
+
+#logo-head{
+    margin-left: 10px;
+}
+
+#body{
+    background-color: rgb(40, 39, 39);
+    height: 900px;
+}
+#form-login,#login-by-user-pw{
+    margin: 0 20% 0 20%;
+    background-color: rgb(24, 24, 24);
+    padding: 30px 0;
+    border-radius: 5px;
+}
+
+#body #form-login{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display:block;
+}
+hr{
+   display: inline-block;
+    width: 50%;
+}
+button{
+    width: 300px;
+    height: 50px;
+    margin: 5px 0;
+    border-radius: 70px;
+}
+
+#body #form-login #button-login{
+    list-style: none;
+}
+button:hover {
+    background-color:pink;
+    transition: 0.5s;
+}
+
+#login-by-user-pw #login-user-pw{
+    list-style: none;
+    float: center;
+}
+
+input{
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#body #form-login h1{
+    padding: 25px 0;
+    font-size: 60px;
+    color: white;
+}
+
+#login-by-user-pw #login-user-pw label{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#login-user-pw .log-in{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+}
+
+#login-by-user-pw #login-user-pw .remember{
+    padding-right: 190px;
+    margin: 10px 0;
+}
+
+#login-user-pw .us-pw,#login-user-pw .us-nm{
+    margin: 10px 0;
+}
+
+.error{
+    color: red;
+    float:left;
+    margin-left: 55px;
+    /* margin-top: 5px; */
+}

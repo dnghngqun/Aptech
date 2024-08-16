@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "my-project-test"
+    },
+    {
+      "path": "my-project1"
+    },
+    {
+      "path": "prj html"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "prj html"
+  }
+}

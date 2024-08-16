@@ -1,0 +1,19 @@
+body{
+    margin: 100px auto;
+}
+.one{
+    background-color: royalblue;
+    border-radius: 14%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    top: 20px
+}
+#border{
+    position: relative;
+    border-radius: 15%;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid green;
+}

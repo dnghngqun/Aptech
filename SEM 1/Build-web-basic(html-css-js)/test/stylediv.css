@@ -1,0 +1,80 @@
+/* Reset.css */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    border: 3px solid black
+}
+
+#body-content{
+    border: 10px solid red;
+
+}
+
+#header{
+    border:3px solid blueviolet;
+}
+
+#level{
+    border: 3px solid yellowgreen;
+}
+/* 
+#level-left{
+    border: 3px solid violet ;
+}
+
+#level-right{
+    border:  3px solid turquoise;
+}
+*/
+#content{
+    border: 3px solid sienna ;
+}
+
+#footer{
+    border: 3px solid springgreen ;
+}
+
+#sidebar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: black;
+}
+
+#header{
+    background-color: blueviolet;
+    height: 70px;
+    position: fixed;
+    top:0;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+  
+
+}
+
+#level{
+    height: 50px;
+    width: 90%;
+
+}
+
+#body-content{
+    margin-left: 200px;
+    background-color: brown;
+}
+#content{
+    margin: 20px 0;
+    height: 1000px;
+    background-color: sienna;
+}
+
+#footer{
+    margin: 20px 0;
+    height: 100px;
+    background-color: springgreen;
+}

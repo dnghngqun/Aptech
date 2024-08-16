@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Imusic</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/Pictures/Logo/themify-icons/themify-icons.css">
+    <script src="./assets/js/login.js"></script>
+</head>
+<body>
+    <div id="head">
+        <div id="logo-head" class="ti-headphone"></div>
+        <div id="title-head">Imusic - The best place of listen to music for young people</div>
+    </div>
+    <div id="body">
+        <div id="form-login">
+            <h1>Sign in to Imusic</h1>
+            <ul id="button-login">
+                <li>
+                    <button id ="google-login" formaction="#">
+                        <div class="ti-google"></div>
+                        <span class="google">Continue with Google</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="facebook-login" formaction="#">
+                        <div class="ti-facebook"></div>
+                        <span class="facebook">Continue with Facebook</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="apple-login" formaction="#">
+                        <div class="ti-apple"></div>
+                        <span class="apple">Continue with Apple</span>
+                    </button>
+                </li>
+                <li style="margin-bottom: 20px;">
+                    <button id="phone-number" formaction="./index.html">
+                        <span class="phone">Continue with phone number</span>
+                    </button>
+                </li>
+            </ul>
+            <hr>
+            <form id="login-by-user-pw" action="./index.html" method="post" onsubmit="return checkForm()">
+                <ul id="login-user-pw">
+                    <li class="us-nm">
+                        <label for="user-name" style="padding-right: 150px;">Email or user name:</label>
+                        <br>
+                        <input type="text" name="user-name" id="user-name" class="user-name">
+                        <div id="username-error" class="error" style="color: red;"></div>
+                    </li>
+                    <li class="us-pw">
+                        <label for="user-pw" style="padding-right: 255px;">Password:</label>
+                        <br>
+                        <input type="password" name="user-pw" id="user-pw" class="user-pw">
+                        <div id="pw-error" class="error"></div>
+                    </li>
+                    <li class="remember">
+                        <input type="checkbox" name="remember-me" id="remember-me" class="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </li>
+                    <li>
+                        <button value="submit" class="log-in">Log in</button>
+                    </li>
+                    <li>
+                        <a href="" style="color: aliceblue;">Forgot password!</a>
+                    </li>
+                </ul>
+            </form>
+            <hr>
+            <div id="link-to-register">
+                <span style="color: gray;">Do not have an account?</span>
+                <a href="./register.html" style="color: aliceblue;">Register Imusic</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

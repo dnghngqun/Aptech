@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodayNews</title>
+    <link rel="stylesheet" href="TodayNews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+      <div class="logo"><a>TODAY IN WORLD</a></div>       
+    <nav>
+      <ul class="navigation">
+        <li><a class="world" href="#" >World</a></li>
+        <li><a class="navv" href="#" >Americas</a></li>
+        <li><a class="navv" href="#">Europe</a></li>
+        <li><a class="navv" href="#">Asia</a></li>
+        <li><a class="navv" href="#">China</a></li>
+        <li><a class="navv" href="#">Rest Of World</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-box">
+    <section class="weather-widget">
+        <select id="location-select" class="locate">
+            <option value="auto" selected>Auto</option >
+            <option value="india">India</option>
+            <option value="americas">Americas</option>
+            <option value="europe">Europe</option>
+            <option value="asia" >Asia</option>
+            <option value="china">China</option>
+        </select>
+        <div class="location"><span id="country"></span></div>
+        <div class="time" id="datetime"></div>
+        <div class="temperature" id="temperature"></div>
+        <img class="icon" id="icon" alt="Weather Icon">
+        <div class="condition" id="condition"></div>
+        <script src="TodayNews.js"></script>
+    </section>
+
+    <div class="news-container">
+      <ul>
+        <li><a>
+          World News</a></li>
+      </ul>
+        <section class="news-section">
+          <article class="news-article1">
+            <img src="/240115130728-01-raanana-attack-011524.jpg" alt="test">
+            <h6>Mon January 15, 2024</h6>
+            <a href="#"><h3>One killed, 17 injured in twin attacks in Israeli city of Raanana</h3></a>
+            <p>
+              Jerusalem
+              CNN
+               — 
+              A woman in her 70s was killed Monday and 17 other people were injured in twin attacks in the central Israeli city of Raanana, according to hospitals treating the victims.
+            </p>
+          </article>
+          <div class="related">
+          <article class="news-article">
+            <img src="/106874893.png" alt="test">
+            <h6> Jan 15, 2024</h6>
+            <a href="#"><h3>Dangerously cold temperatures continue across US as 2024 presidential race begin</h3></a>
+          </article>
+          <article class="news-article">
+            <img src="/106874259.png" alt="test">
+            <h6> Jan 15, 2024</h6>
+            <a href="#"><h3>Boeing to increase quality in to raise inspections on 737-Max post Alaska Airlines blow out</h3></a>
+          </article>
+          </div>
+          <div class="related">
+          <article class="news-article">
+            <img src="/106875449.png" alt="test">
+            <h6> Jan 15, 2024</h6>
+            <a href="#"><h3>Tunisian asylum-seeker who nearly beheaded British Indian girlfriend detained in psychiatric hospital</h3></a>
+          </article>
+          <article class="news-article">
+            <img src="/240111215018-03-israel-hostages-relatives-story.jpg" alt="test">
+            <h6> Jan 15, 2024</h6>
+            <a href="#"><h3>‘Nothing is moving:’ Families’ anger grows in Israel as hostages mark 100 days in Hamas captivity</h3></a>
+          </article>
+          </div>
+        </section>
+
+        <ul>
+          <li><a class="bg-slider" href="#">
+            Americas <i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+        <section class="news-section">
+            <article class="news-article1">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 1</h3></a>
+              <p>
+                Article content goes here...
+              </p>
+            </article>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 2</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 3<h3></a>              
+            </article>
+            </div>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 4</h3></a>
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 5</h3></a>            
+            </article>
+            </div>
+        </section>
+        
+        <ul>
+          <li><a class="bg-slider" href="#">
+            Europe <i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+        <section class="news-section">
+            <article class="news-article1">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 1</h3></a>
+              <p>
+                Article content goes here...
+              </p>
+            </article>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 2</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 3<h3></a>              
+            </article>
+            </div>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 4</h3></a>
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 5</h3></a>            
+            </article>
+            </div>
+        </section>
+
+        <ul>
+          <li><a class="bg-slider" href="#">
+            Asia <i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+        <section class="news-section">
+            <article class="news-article1">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 1</h3></a>
+              <p>
+                Article content goes here...
+              </p>
+            </article>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 2</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 3</h3></a>             
+            </article>
+            </div>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 4</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 5</h3></a>          
+            </article>
+            </div>
+        </section>
+
+        <ul>
+          <li><a class="bg-slider" href="#">
+            China <i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+        <section class="news-section">
+            <article class="news-article1">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 1</h3></a>
+              <p>
+                Article content goes here...
+              </p>
+            </article>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 2</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 3</h3></a>             
+            </article>
+            </div>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 4</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 5</h3></a>          
+            </article>
+            </div>
+        </section>
+
+        <ul>
+          <li><a class="bg-slider" href="#">
+            Rest of World <i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+        <section class="news-section">
+            <article class="news-article1">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 1</h3></a>
+              <p>
+                Article content goes here...
+              </p>
+            </article>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 2</h3></a>             
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 3</h3></a>             
+            </article>
+            </div>
+            <div class="related">
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 4</h3></a>
+            </article>
+            <article class="news-article">
+              <img src="/demo_image.jpg" alt="test">
+              <h6>Date</h6>
+              <a href="#"><h3>Article Title 5</h3></a>
+            </article>
+            </div>
+        </section>
+  </main>
+
+  <!-- Footer for testing Pls remove -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>About</h4>
+        <p>
+          Footer for testing Pls remove
+        </p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>123 Street, City, Country</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

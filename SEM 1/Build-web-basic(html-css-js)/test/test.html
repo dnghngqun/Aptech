@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imusic - The best place of listen to music for young people</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/Pictures/Logo/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="logo" style="height: 70px;">Imusic</div>
+        <div id="home" class="tag-sidebar" style="border-left: 3px solid green;">
+            <a href="">
+                <div class="ti-home"></div> <span>Home</span>
+            </a>
+        </div>
+        <div id="radio" class="tag-sidebar" style="border-left: 3px solid palevioletred;">
+            <a href="">
+                <div class="ti-music"></div> <span>Radio</span>
+            </a>
+        </div>
+        <div id="hot" class="tag-sidebar" style="border-left: 3px solid firebrick;">
+            <a href="">
+                <div class="ti-star"></div> <span>MV Hot</span>
+            </a>
+        </div>
+        <div id="playlist" class="tag-sidebar" style="border-left: 3px solid chocolate;">
+            <a href="">
+                <div class="ti-headphone"></div> <span>Playlist</span>
+            </a>
+        </div>
+    </div>
+
+    <div id="body-content">
+        <div id="header">
+            <div id="level">
+                <div id="level-left">
+                    <div class="search">
+                            <div class="ti-search" style="font-size: 25px; color:white;margin: 0 10px;"></div>
+                            <input type="text" id="header-search" placeholder="Search for songs, artists, lyrics...">
+                    </div>
+                </div>
+                <div id="level-right">
+                    <button id="button-account">
+                        <img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.9.72/static/media/user-default.3ff115bb.png" width="45px" height="45p  x" style="border-radius: 50%;">
+                    
+                        <div id="login-register">
+                            <div class="button">
+                                <a href="./login.html" target="_top"><b>Login/Register</b></a>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+        </div>
+        <div id="footer-line"></div>
+        <div id="footer">
+            <div id="foot">
+                <div id="foot-left">
+                    <div id="foot-logo">Imusic</div>
+                </div>
+                <div id="foot-right">
+                    <ul>
+                        <li><a href="">Help</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of use</a></li>
+                        <li><a href="">Cookie</a></li>
+                        <li>
+                            <a href="" style="display: inline;">Follow Imusic on 
+                                <div class="ti-facebook" style="display: inline;"></div>
+                                <div class="ti-instagram" style="display: inline;"></div>
+                                <div class="ti-youtube" style="display: inline;"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-line"></div>
+            <br>
+            <div id="foot-content">
+                <div class="left">
+                    <b>The best music platform today</b>
+                    <p>License number: 499/GP-BTTTT dated 28/09/2015</p>
+
+                </div>
+                <div class="center">
+                        Contact help:
+                        danghongquanvtc1111@gmail.com
+                        Hotline:
+                        (+84) 38 324 0511</p>
+                </div>
+                <div class="right">
+                    <p>© Imusic. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    // change display none <=> flex while click login button
+    let icount = 0;
+    document.getElementById('button-account').onclick = function(){
+        if(icount % 2 == 0)
+        {
+            document.getElementById('login-register').style.display = "flex";
+            icount++;
+        }
+        else{
+            document.getElementById('login-register').style.display = "none";
+            icount++;
+        }
+    }   
+    </script>
+</body>
+</html>

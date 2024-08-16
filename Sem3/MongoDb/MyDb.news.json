@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "66b42f8e05990d594b32c160"
+  },
+  "title": "AI Intelligent",
+  "category": "new hot",
+  "tags": [
+    "hot",
+    "events"
+  ],
+  "date": "Thu Aug 08 2024 09:38:06 GMT+0700 (Indochina Time)",
+  "Title": "new intelligent of AI"
+},
+{
+  "_id": {
+    "$oid": "66b4307d05990d594b32c161"
+  },
+  "title": "AI Intelligent",
+  "category": "new hot",
+  "tags": [
+    "hot",
+    "events"
+  ],
+  "date": "Thu Aug 08 2024 09:42:05 GMT+0700 (Indochina Time)"
+},
+{
+  "_id": {
+    "$oid": "66b4307d05990d594b32c162"
+  },
+  "title": "AI hot new",
+  "category": "new hot",
+  "tags": [
+    "hot",
+    "IT",
+    "AI"
+  ],
+  "date": "Thu Aug 08 2024 09:42:05 GMT+0700 (Indochina Time)"
+},
+{
+  "_id": {
+    "$oid": "66b4307d05990d594b32c163"
+  },
+  "title": "New ChatGPT release",
+  "category": "new hot",
+  "tag": [
+    "hot",
+    "new ai"
+  ],
+  "date": "Thu Aug 08 2024 09:42:05 GMT+0700 (Indochina Time)"
+}]

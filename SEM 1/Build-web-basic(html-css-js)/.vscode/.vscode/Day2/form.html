@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTf-8">
+        <title>besumiee</title>
+        <link rel="stylesheet" href="style_form.css">
+    </head>
+
+    <body>
+        <form >
+            <div>
+                <h1>xin chào</h1>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name"  value="" style="color: gray;" required minlength="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" value="" style="color: gray;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <label for="user-pw">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="user-pw" id="user-pw">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: black;">
+                            <label for="phone-number">Phone Number:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="phone-number" id="phone-number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <label for="gender1">Male</label>
+                            <input type="radio" name="gender" id="gender1">
+                            <label for="gender2">Female</label>
+                            <input type="radio" name="gender" id="gender2">
+                            <label for="gender3">Other </label>
+                            <input type="radio" name="gender" id="gender3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="language">Language:</label>
+                        </td>
+                        <td>
+                        <select name="language" id="language">
+                            <option value="">Select Language</option>
+                            <option value="vn">VN</option>
+                            <option value="en">EN</option>
+                            <option value="fn">FN</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="zipcode">Zip Code:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="zipcode" id="zipcode">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="about">About:</label>
+                        </td>
+                        <td>
+                            <textarea name="about" id="about" cols="20" rows="4">
+                                Write about yourself...
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Register">
+                        </td>
+                    </tr>
+                </table>    
+            </div>
+        </form>
+    </body>
+</html>
+
+
