@@ -15,7 +15,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -23,7 +22,7 @@ public class Main {
 
         try {
             System.out.println("Start crawl!");
-            for(int i = 1; i <= 50; i++) {
+            for(int i = 1; i <= 2000; i++) {
                 String url = "https://batdongsan.com.vn/nha-dat-ban/p"+i;
                 System.out.println("Crawl web url: " + url);
                 List<WebItem> newWebItems = getWebItems(url);
@@ -111,10 +110,14 @@ public class Main {
 
         for(Element e: elements){
             WebItem webItem = new WebItem();
-            webItem.setTitle(e.select("div.re__card-info-content > h3.re__card-title > span.pr-title.js__card-title").text());
-            webItem.setArea(e.select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-area.js__card-config-item").text());
-            webItem.setPrice(e.select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-price.js__card-config-item").text());
-            webItem.setPricePerM2(e.select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-price_per_m2.js__card-config-item").text());
+            webItem.setTitle(e
+                    .select("div.re__card-info-content > h3.re__card-title > span.pr-title.js__card-title").text());
+            webItem.setArea(e
+                    .select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-area.js__card-config-item").text());
+            webItem.setPrice(e
+                    .select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-price.js__card-config-item").text());
+            webItem.setPricePerM2(e
+                    .select("div.re__card-info-content >div > div.re__card-config.js__card-config > span.re__card-config-price_per_m2.js__card-config-item").text());
 
             webItemsList.add(webItem);
         }
