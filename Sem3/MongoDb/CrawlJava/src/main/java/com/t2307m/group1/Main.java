@@ -22,7 +22,7 @@ public class Main {
 
         try {
             System.out.println("Start crawl!");
-            for(int i = 1; i <= 2000; i++) {
+            for(int i = 1; i <= 500; i++) {
                 String url = "https://batdongsan.com.vn/nha-dat-ban/p"+i;
                 System.out.println("Crawl web url: " + url);
                 List<WebItem> newWebItems = getWebItems(url);
@@ -66,10 +66,14 @@ public class Main {
 
                 System.out.println("Save data to database...");
                 int totalItems = documents.size();
+                int lastProgress = 0;
                 for (int i = 0; i < totalItems; i++) {
                     collection.insertOne(documents.get(i));
                     int progress = (i + 1) * 100 / totalItems;
-                    System.out.println("Progress: " + progress + "% (" + (i + 1) + "/" + totalItems + " items)");
+                    if (progress > lastProgress) {
+                        System.out.println("Progress: " + progress + "%");
+                        lastProgress = progress;
+                    }
                 }
                 System.out.println("Success!!!");
             }catch (Exception e){
@@ -104,7 +108,7 @@ public class Main {
     private static List<WebItem> getWebItems(String url) throws IOException {
         List<WebItem> webItemsList = new ArrayList<>();
         Document doc = Jsoup.connect(url)
-                .timeout(10 * 1000)// đợi máy chủ phản hồi tối đa 10s
+                .timeout(30 * 1000)// đợi máy chủ phản hồi tối đa 30s
                 .get();
         Elements elements = doc.select(".js__card.js__card-full-web.pr-container.re__card-full");
 
