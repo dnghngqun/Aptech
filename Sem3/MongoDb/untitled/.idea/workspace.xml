@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9c34774-c5ff-4d6e-b1de-1e6295c2ff48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Crawler/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/java/com/t2307m/group1/crawler/CrawlerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/java/com/t2307m/group1/crawler/WebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/java/com/t2307m/group1/crawler/WebpageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/java/com/t2307m/group1/crawler/WebpageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/java/com/t2307m/group1/crawler/WebpageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crawler/src/test/java/com/t2307m/group1/crawler/CrawlerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practical/Practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SEM 1/PHP/Laravel/prj2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SEM 1/PHP/Laravel/prj2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SEM 2/T2307M" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SEM 2/T2307M" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2kp4P66I6aILHcexZgm2OhikEB4" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CrawlerJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CrawlerJava" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c34774-c5ff-4d6e-b1de-1e6295c2ff48" name="Changes" comment="" />
+      <created>1723967165198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723967165198</updated>
+      <workItem from="1723967166659" duration="694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
